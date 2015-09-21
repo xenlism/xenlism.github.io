@@ -1,6 +1,171 @@
-<html>
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
 <head>
-<title>xenlism's project</title>
-</head>
-<body>this page under development</body>
-</html>
+    <title>xenlism : project</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Minimalistics Gnome/GTK Theme.">
+    <meta name="author" content="Nattapong Pullkhow">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->    
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/plugins/prism/prism.css">
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head> 
+
+<body data-spy="scroll">
+    
+    <!---//Facebook button code-->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    
+    <!-- ******HEADER****** --> 
+    <header id="header" class="header">  
+        <div class="container">            
+            <h1 class="logo pull-left">
+                <a class="scrollto" href="#promo">
+                    <span class="logo-title">xenlism</span>
+                </a>
+            </h1><!--//logo-->              
+            <nav id="main-nav" class="main-nav navbar-right" role="navigation">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button><!--//nav-toggle-->
+                </div><!--//navbar-header-->            
+                <div class="navbar-collapse collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Home</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#about">About</a></li> 
+						                       <li class="nav-item last"><a class="scrollto" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#gallery">Gallery</a></li>            
+                    </ul><!--//nav-->
+                </div><!--//navabr-collapse-->
+            </nav><!--//main-nav-->
+        </div>
+    </header><!--//header-->
+    
+    <!-- ******PROMO****** -->
+    <section id="promo" class="promo features section offset-header">
+        <div class="container text-center">
+			<div class="col-md-3 col-md-offset-2"><a href="http://xenlism.github.io/minimalism/" ><img class="img-thumbnail" src="img/logo-wildfire.png" ></a></div>
+			<div class="col-md-3 col-md-offset-2"><a  href="http://xenlism.github.io/wildfire/" ><img class="img-thumbnail" src="img/logo-xenlism.png" ></a></div>
+			
+            <h2 class="title">Xenlism <span class="highlight">Project</span></h2>
+            <p class="intro">Different And Better.</p>
+            <div class="btns">
+				<a class="btn btn-cta-secondary" href="https://github.com/xenlism/" >GITHUB</a></div>
+            </div>
+			<div class="col-md-6 col-md-offset-3"></div>
+			<div class="clearfix"></div>
+        </div><!--//container-->
+    </section><!--//promo-->
+    <!-- ******ABOUT****** --> 
+    <section id="about" class="about section">
+        <div class="container ">
+            <h2 class="title text-center">What is Xenlism project?</h2>
+			<p class="text-center">xenlism is Computer Graphic And Programming project to make something batter.</p> 
+			
+			<p class="text-center">xenlism minimalism is minimalistic Gnome/GTK Theme</p> 
+			<p class="text-center">inspired by Elemenaty OS and Base on <a href="https://github.com/horst3180/Arc-theme"> Arc Theme</a>.</p> 
+			
+			<p class="text-center">xenlism wildfire is icon theme for *nix desktop environment.</p>   
+			<p class="text-center">inspired by Nokia's meego and Apple iOS icon.</p> 
+			<p class="text-center">best for gnome and (Maybe) unity,mate,cinamon.</p>
+			
+        </div><!--//container-->
+    </section><!--//about-->
+    <!-- ******CONTACT****** --> 
+    <section id="contact" class="contact section has-pattern">
+        <div class="container">
+            <div class="contact-inner">
+                <h2 class="title  text-center">Contact</h2>
+				Feel free to get in touch if you have any questions or suggestions.</p>
+				<br /><br />
+                <div class="author-message">                      
+                    <div class="profile">
+                        <img class="img-responsive" src="assets/images/profile.png" alt="" />
+                    </div><!--//profile-->
+                    <div class="speech-bubble">
+                        <h3 class="sub-title">You need fast respone?</h3>
+                        <p>I have tweet about my Life and Work progress on. <a href="https://twitter.com/xenatt" target="_blank">@xenatt</a> 
+                        <div class="source">
+                            <span class="name"><a href="https://twitter.com/xenlism" target="_blank">@xenlism</a></span>
+                            <br />
+                            <span class="title">xenlism Minimalism and Open Source Project.</span>
+                        </div><!--//source-->
+                    </div><!--//speech-bubble-->                        
+                </div><!--//author-message-->
+                <div class="clearfix"></div>
+                <div class="info text-center">
+                    <h4 class="sub-title">Get Connected</h4>
+                    <ul class="social-icons list-inline">
+                        <li><a href="https://twitter.com/xenatt" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="hhttps://plus.google.com/communities/109015399598666540563" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                        <li class="last"><a href="mailto: exenatt@gmail.com"><i class="fa fa-envelope"></i></a></li>              
+                    </ul>
+                </div><!--//info-->
+            </div><!--//contact-inner-->
+        </div><!--//container-->
+    </section><!--//contact-->  
+    <!-- ******FEATURES****** --> 
+    <section id="gallery" class="features section">
+        <div class="container">
+			<h2 class="title text-center">Xenlism minimalism ScreenShot</h2>
+		    <div class="col-md-10 col-md-offset-1"><img class="img-thumbnail" src="https://raw.githubusercontent.com/xenlism/minimalism/master/Screenshot/xenlism_minimalism_cover1.png"></div>
+		    <div class="col-md-10 col-md-offset-1"><img class="img-thumbnail" src="https://raw.githubusercontent.com/xenlism/minimalism/master/Screenshot/xenlism_minimalism_cover2.png"></div>
+		    <div class="col-md-10 col-md-offset-1"><img class="img-thumbnail" src="https://raw.githubusercontent.com/xenlism/minimalism/master/Screenshot/xenlism_minimalism_cover3.png"></div>
+			<div class="clearfix"></div>
+			<h2 class="title text-center">Xenlism wildfire ScreenShot</h2>
+		    <div class="col-md-10 col-md-offset-1"><img class="img-thumbnail" src="https://raw.githubusercontent.com/xenlism/wildfire/master/Screenshot/Screenshot%20from%202015-08-30%2009_08_59.png"></div>
+		    <div class="col-md-10 col-md-offset-1"><img class="img-thumbnail" src="https://raw.githubusercontent.com/xenlism/wildfire/master/Screenshot/Screenshot%20from%202015-08-30%2009_09_02.png"></div>
+		    <div class="col-md-10 col-md-offset-1"><img class="img-thumbnail" src="https://raw.githubusercontent.com/xenlism/wildfire/master/Screenshot/Screenshot%20from%202015-09-01%2000_29_20.png"></div>
+			<div class="clearfix"></div>
+        </div><!--//container-->
+    </section>
+	    
+
+      
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="container text-center">
+            <ul class="meta list-inline">
+                <li>Bootstrap template Created by: <a href="http://themes.3rdwavemedia.com/" target="_blank">Xiaoying Riley</a> at 3rd Wave Media</li>
+            </ul><!--//meta-->
+        </div><!--//container-->
+    </footer><!--//footer-->
+     
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/jquery.easing.1.3.js"></script>   
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>     
+    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>    
+    <script type="text/javascript" src="assets/js/main.js"></script>       
+</body>
+</html> 
+
